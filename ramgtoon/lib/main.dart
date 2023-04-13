@@ -13,11 +13,11 @@ class App extends StatelessWidget {
     return MaterialApp(
         theme: ThemeData(
             colorScheme: ColorScheme.fromSwatch(
-                backgroundColor: const Color(0xFFE7626C)),
+                backgroundColor: const Color(0xFFD55846)),
             textTheme: const TextTheme(
-              displayLarge: TextStyle(color: Color(0xFF232B55)),
+              displayLarge: TextStyle(color: Color(0xFFD55846)),
             ),
-            cardColor: const Color(0xFFF4EDDB)),
+            cardColor: const Color(0xFFFFFFFF)),
         home: const HomeScreen());
   }
 }
