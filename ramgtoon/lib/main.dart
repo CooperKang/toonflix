@@ -10,14 +10,8 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        theme: ThemeData(
-            colorScheme: ColorScheme.fromSwatch(
-                backgroundColor: const Color(0xFFD55846)),
-            textTheme: const TextTheme(
-              displayLarge: TextStyle(color: Color(0xFFD55846)),
-            ),
-            cardColor: const Color(0xFFFFFFFF)),
-        home: const HomeScreen());
+    return const MaterialApp(
+      home: HomeScreen(),
+    );
   }
 }
