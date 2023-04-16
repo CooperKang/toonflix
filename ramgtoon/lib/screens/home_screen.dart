@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ramgtoon/models/WebtoonModel.dart';
+import 'package:ramgtoon/models/webtoon_model.dart';
 import 'package:ramgtoon/services/api_service.dart';
 import 'package:ramgtoon/widgets/webtoon_widget.dart';
 
